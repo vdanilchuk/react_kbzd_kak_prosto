@@ -18,7 +18,8 @@ function App() {
             <Rating value={5}/>
             <PageTitle title={'Title 6'}/>
             <Rating value={0}/>
-            <Accordion/>
+            <Accordion titleValue={'Menu'} collapsed={true}/>
+            <Accordion titleValue={'Users'} collapsed={false}/>
         </div>
     );
 }
