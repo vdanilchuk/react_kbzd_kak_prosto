@@ -4,7 +4,7 @@ import {AccordionBody} from "./AccordionBody";
 
 export const Accordion = () => {
     return (<>
-            <AccordionTitle/>
+            <AccordionTitle title={'Hi ACCORDION'}/>
             <AccordionBody/>
         </>
     )
